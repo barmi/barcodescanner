@@ -145,7 +145,7 @@ public class FullScannerActivity extends BaseScannerActivity implements MessageD
             Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), notification);
             r.play();
         } catch (Exception e) {}
-        showMessageDialog("Contents = " + rawResult.getText() + ", Format = " + rawResult.getBarcodeFormat().toString());
+        showMessageDialog("2Contents = " + rawResult.getText() + ", Format = " + rawResult.getBarcodeFormat().toString());
     }
 
     public void showMessageDialog(String message) {
